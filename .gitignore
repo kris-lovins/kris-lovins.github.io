@@ -12,6 +12,9 @@
 /build
 
 # misc
+.sqlite
+.vsidx
+.lock
 .DS_Store
 .env.local
 .env.development.local
@@ -21,3 +24,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.vsidx
+*.lock
+.vs/slnx.sqlite
+.vs/kris-lovins.github.io/config/applicationhost.config
+.vs/ProjectSettings.json
